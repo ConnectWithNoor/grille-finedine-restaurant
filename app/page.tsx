@@ -1,30 +1,30 @@
 import {
-  Blog,
-  Features,
+  AboutUs,
+  Chef,
+  FindUs,
   Footer,
+  Gallery,
   Header,
-  Possibility,
-  WhatGpt3,
+  Intro,
+  Laurels,
+  SpecialMenu,
 } from './{section}';
-
-import { CTA, Brand, Navbar } from './{components}';
+import { Navbar } from './{components}';
 
 import './global.css';
 
 export default function Home() {
   return (
-    <main className='App'>
-      <div className='gradient__bg'>
-        <Navbar />
-        <Header />
-      </div>
-
-      <Brand />
-      <WhatGpt3 />
-      <Features />
-      <Possibility />
-      <CTA />
-      <Blog />
+    <main>
+      <Navbar />
+      <Header />
+      <AboutUs />
+      <SpecialMenu />
+      <Chef />
+      <Intro />
+      <Laurels />
+      <Gallery />
+      <FindUs />
       <Footer />
     </main>
   );
