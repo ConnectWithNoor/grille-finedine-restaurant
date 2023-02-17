@@ -153,7 +153,13 @@ a {
 }
 
 .spoon__img {
-  width: 45px;
+  position: relative;
+  width: 2.8rem;
+  height: 1rem;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 @media screen and (min-width: 2000px) {
@@ -174,7 +180,7 @@ a {
   }
 
   .spoon__img {
-    width: 80px;
+    width: 5rem;
   }
 }
 

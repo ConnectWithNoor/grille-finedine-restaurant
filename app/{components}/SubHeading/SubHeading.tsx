@@ -3,12 +3,13 @@ import React from 'react';
 
 type Props = {
   title: string;
+  width?: boolean;
 };
 
-const SubHeading = ({ title }: Props) => (
+const SubHeading = ({ title, width = false }: Props) => (
   <div style={{ marginBottom: '1rem' }}>
     <p className='p__cormorant'>{title}</p>
-    <div style={{ width: '5rem', height: '1rem', position: 'relative' }}>
+    <div className={`spoon__img ${width && 'w-100'}`}>
       <Image src={'/spoon.svg'} alt='subheading-img' fill />
     </div>
   </div>

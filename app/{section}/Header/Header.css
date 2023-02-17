@@ -17,3 +17,9 @@
   height: 25rem;
   position: relative;
 }
+
+@media screen and (max-width: 900px) {
+  .app__wrapper_img-container {
+    width: 80%;
+  }
+}
