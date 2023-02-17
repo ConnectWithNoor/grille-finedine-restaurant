@@ -53,12 +53,14 @@
   }
 }
 
+@media screen and (max-width: 1150px) {
+  .app__wrapper_img-container {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 650px) {
   .app__chef-sign-img {
     width: 40%;
-  }
-
-  .app__wrapper_img-container {
-    width: 100%;
   }
 }
