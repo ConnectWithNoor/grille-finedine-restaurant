@@ -1,6 +1,7 @@
+import Image from 'next/image';
+
 import { SubHeading } from '@/app/{components}';
 import { data } from '@/app/{constants}';
-import Image from 'next/image';
 
 import './Laurels.css';
 type Props = {
