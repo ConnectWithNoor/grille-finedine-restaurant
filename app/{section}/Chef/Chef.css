@@ -1,7 +1,7 @@
 .app__wrapper_img-container {
   position: relative;
   width: 70%;
-  height: 25rem;
+  height: 35rem;
 }
 
 .app__chef-content {
@@ -55,12 +55,17 @@
 
 @media screen and (max-width: 1150px) {
   .app__wrapper_img-container {
-    width: 100%;
+    width: 60%;
+    height: 30rem;
   }
 }
 
 @media screen and (max-width: 650px) {
   .app__chef-sign-img {
     width: 40%;
+  }
+
+  .app__wrapper_img-container {
+    width: 100%;
   }
 }
